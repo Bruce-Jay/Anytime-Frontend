@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import './input.css';
+import Bar from './Bar';
+import Welcome from './Welcome';
+import School from './School'
+import Wallet from './Wallet'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
+    <React.StrictMode>
+        <Bar />
+        <Welcome />
+        <School />
+        <Wallet />
   </React.StrictMode>
 );
 

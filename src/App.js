@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import {MessageTwoTone} from '@ant-design/icons'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="p-6 max-w-xl mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 mt-40">
+        <div className="shrink-0">
+              <MessageTwoTone style={{ fontSize: '200%'}} />
+        </div>
+        <div>
+            <div className="text-2xl font-medium text-black">ChitChat</div>
+            <p className="text-slate-500">You have a new message!</p>
+        </div>
     </div>
   );
 }
