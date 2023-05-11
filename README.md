@@ -1,3 +1,32 @@
+# Details of this project
+
+Here are details / environment of this project.
+
+## Node version
+
+v16.15.0
+
+## How to run?
+
+First, install React & Tailwindcss. 
+
+To setup react and react-dom, just run this command in terminal: `npm install react react-dom`
+
+To install Tailwindcss, just run this command in terminal :`npm install -D tailwindcss; npx tailwindcss init`
+
+After the installation of dependencies, run `npm start` command in terminal of root path, and visit [http://localhost:3000](http://localhost:3000) to get the view of this project.
+
+## How to contribute to this project?
+
+All code is in `/src` path, the main file is `index.js`, and it contains 4 components: 
+
+- Bar
+- Welcome
+- School
+- Wallet
+
+You can inspect elements of the website and see how the components & code works!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
