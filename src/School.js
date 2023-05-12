@@ -7,40 +7,50 @@ import Train from './image/Train-2.svg'
 function School() {
     return (
         <div className="bg-gray-100">
-            <div className="max-w-xl w-auto h-44 mx-auto">
-                <div className="bg-orange-100 h-full w-11/12 mx-auto rounded-xl pt-9">
-                    <div className="bg-white h-5/6 w-11/12 mx-auto rounded-xl">
+            <div className="max-w-xl w-auto h-48 mx-auto relative">
+                    <div className='w-40 border-t-[2rem] border-l-[0.5rem]
+                    border-r-[0.5rem] border-b-[2rem] border-t-schoolbarbot
+                    border-l-transparent border-r-transparent
+                    border-b-transparent mx-auto absolute left-1/2 -top-4
+                    -translate-x-1/2'>
+                    <span className='absolute left-1/2 -top-7 
+                        -translate-x-1/2 text-mny text-white font-semibold
+                        '>校园通行</span>
+                    </div>
+                <div className="bg-schoolbg h-full w-19/20 mx-auto rounded-xl pt-7">
+                    
+                    <div className="bg-white h-36 w-97/100 mx-auto rounded-xl shadow-sm">
                         <ul className="list-none flex justify-around pt-3 block">
-                            <li className="h-14 w-16 flex-col flex items-center justify-center">
-                                <div className="h-9 w-9 bg-ecnu rounded-full 
+                            <li className="w-16 flex-col flex items-center justify-center">
+                                <div className="h-12 w-12 bg-schoolicon rounded-full 
                                 flex items-center justify-center shadow-md shadow-rose-200">
                                     <img src={Register} alt='logo' className='h-6 w-6'></img>
                                 </div>
-                                <p className="text-bar text-center leading-5">返校登记</p>
+                                <p className="text-bar text-center leading-5 mt-1.5">返校登记</p>
                             </li>
-                            <li className="h-14 w-16 flex-col flex items-center justify-center">
-                                <div className="h-9 w-9 bg-ecnu rounded-full 
+                            <li className="w-16 flex-col flex items-center justify-center">
+                                <div className="h-12 w-12 bg-schoolicon rounded-full 
                                 flex items-center justify-center shadow-md shadow-rose-200">
-                                    <img src={Friend} alt='logo' className='h-5 w-5'></img>
+                                    <img src={Friend} alt='logo' className='h-7'></img>
                                 </div>
-                                <p className="text-bar text-center leading-5">访客登记</p>
+                                <p className="text-bar text-center leading-5 mt-1.5">访客登记</p>
                             </li>
-                            <li className="h-14 w-16 flex-col flex items-center justify-center">
-                                <div className="h-9 w-9 bg-ecnu rounded-full 
+                            <li className="w-16 flex-col flex items-center justify-center">
+                                <div className="h-12 w-12 bg-schoolicon rounded-full 
                                 flex items-center justify-center shadow-md shadow-rose-200">
-                                    <img src={Building} alt='logo' className='h-5'></img>
+                                    <img src={Building} alt='logo' className='h-7'></img>
                                 </div>
-                                <p className="text-bar text-center leading-5">假期留校</p>
+                                <p className="text-bar text-center leading-5 mt-1.5">假期留校</p>
                             </li>
-                            <li className="h-14 w-16 flex-col flex items-center justify-center">
-                                <div className="h-9 w-9 bg-ecnu rounded-full 
+                            <li className="w-16 flex-col flex items-center justify-center">
+                                <div className="h-12 w-12 bg-schoolicon rounded-full 
                                 flex items-center justify-center shadow-md shadow-rose-200">
-                                    <img src={Train} alt='logo' className='h-5'></img>
+                                    <img src={Train} alt='logo' className='h-7'></img>
                                 </div>
-                                <p className="text-bar text-center leading-5">离校离沪</p>
+                                <p className="text-bar text-center leading-5 mt-1.5">离校离沪</p>
                             </li>
                         </ul>
-                        <p className='text-center mt-5 text-bar text-ecnu'>
+                        <p className='text-center mt-6 text-bar text-ecnu'>
                             点击收起<span>
                                 <img src={Arrow} alt='arrow' className='inline-block w-3 ml-1 mb-1'></img>
                             </span>

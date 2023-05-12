@@ -18,10 +18,26 @@ module.exports = {
       },
       extend: {
           colors: {
-            'ecnu': '#b4364b',
+              'ecnu': '#b4364b',
+              'barcolor': '#f8f9fd',
+              'schoolbg': '#ede5e3',
+              'schoolicon': '#e2546e',
+              'schoolbarbot': '#c3495e',
+              'schoolbarmed': '#d76376',
+              'schoolbarback': '#a71e38',
           },
           screens: {
               '3xl': '2560px',
+          },
+          width: {
+              '19/20': '95%',
+              '97/100': '97%',
+          },
+          aspectRatio: {
+              'poster': '3.6'
+          },
+          height: {
+              '50': '12.5rem'
           },
     },
   },

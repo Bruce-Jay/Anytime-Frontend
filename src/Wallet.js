@@ -48,7 +48,7 @@ function Wallet() {
                         
                     </ul>
                 </div>
-                <div className='px-2 pt-2 pb-4 border-b w-11/12 mx-auto'>
+                <div className='px-2 pt-2 pb-2 border-b w-11/12 mx-auto'>
                     <ul className="list-none flex justify-around pt-3">
                         <li className="h-14 w-18 flex-col flex items-center justify-center">
                             <div className="h-9 w-9 rounded-full 
@@ -103,7 +103,7 @@ function Wallet() {
                         
                     </ul>
                 </div>
-                <p className='text-center text-bar text-ecnu'>
+                <p className='text-center text-bar text-ecnu mt-1'>
                     <text className='mr-1'>点击收起</text>
                     <span>
                         <img src={Arrow} alt='arrow' className='inline-block w-3'></img>

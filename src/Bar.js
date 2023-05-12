@@ -9,7 +9,7 @@ getTwoToneColor()
 
 function Bar() {
     return (
-        <div className="max-w-xl w-auto h-20 mx-auto">
+        <div className="max-w-xl w-auto h-20 mx-auto bg-barcolor">
             <ul className="list-none flex justify-around pt-3">
                 <li className="h-14 w-16 flex-col flex items-center justify-center">
                     <div className="h-9 w-9 bg-blue-600 rounded-full 
