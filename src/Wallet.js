@@ -17,33 +17,33 @@ function Wallet() {
                         <img src={WalletIcon} alt='wallet' className='w-6'></img>
                     </span>
                     <p className='ml-1 text-ssb mt-1'>
-                        校园卡钱包
+                        E-Wallet
                     </p>
                 </div>
                 <div>
                     <ul className="flex justify-around pt-3 block px-6">
                         <li className="h-16 flex-col flex items-center justify-center">
                             <p>
-                                <span className='text-mny text-ecnu'>11171.37</span>
-                                <span className='text-bar text-ecnu'>元</span>
+                                <span className='text-mny text-nyu'>11171.37</span>
+                                <span className='text-bar text-nyu'>CNY</span>
                             </p>
-                            <p className="text-bar text-center leading-5">账户余额</p>
+                            <p className="text-bar text-center leading-5">Balance</p>
                         </li>
                         <div className='w-px border-r'></div>
                         <li className="h-16 flex-col flex items-center justify-center">
                             <p>
-                                <span className='text-mny text-ecnu'>172.37</span>
-                                <span className='text-bar text-ecnu'>元</span>
+                                <span className='text-mny text-nyu'>172.37</span>
+                                <span className='text-bar text-nyu'>CNY</span>
                             </p>
-                            <p className="text-bar text-center leading-5">本月消费</p>
+                            <p className="text-bar text-center leading-5">Consumption</p>
                         </li>
                         <div className='w-px border-r'></div>
                         <li className="h-16 flex-col flex items-center justify-center">
                             <p>
-                                <span className='text-mny text-ecnu'>1000</span>
-                                <span className='text-bar text-ecnu'>元</span>
+                                <span className='text-mny text-nyu'>1000</span>
+                                <span className='text-bar text-nyu'>CNY</span>
                             </p>
-                            <p className="text-bar text-center leading-5">本月充值</p>
+                            <p className="text-bar text-center leading-5">Top-up Amount</p>
                         </li>
                         
                     </ul>
@@ -55,28 +55,28 @@ function Wallet() {
                             flex items-center justify-center">
                                 <img src={IdCard} alt='logo' className='h-6 w-6'></img>
                             </div>
-                            <p className="text-scr text-center leading-5">Ecard 小程序</p>
+                            <p className="text-scr text-center leading-5">Mini Program</p>
                         </li>
                         <li className="h-14 w-18 flex-col flex items-center justify-center">
                             <div className="h-9 w-9 rounded-full 
                             flex items-center justify-center">
                                 <img src={Income} alt='logo' className='h-6 w-6'></img>
                             </div>
-                            <p className="text-scr text-center leading-5">奖助补贴</p>
+                            <p className="text-scr text-center leading-5">Subsides</p>
                         </li>
                         <li className="h-14 w-18 flex-col flex items-center justify-center">
                             <div className="h-9 w-9 rounded-full 
                             flex items-center justify-center">
                                 <img src={Bachelor} alt='logo' className='h-6 w-6'></img>
                             </div>
-                            <p className="text-scr text-center leading-5">教育缴费</p>
+                            <p className="text-scr text-center leading-5">Edu Payment</p>
                         </li>
                         <li className="h-14 w-18 flex-col flex items-center justify-center">
                             <div className="h-9 w-9 rounded-full 
                             flex items-center justify-center">
                                 <img src={Book} alt='logo' className='h-6 w-6'></img>
                             </div>
-                            <p className="text-scr text-center leading-5">教材费</p>
+                            <p className="text-scr text-center leading-5">Book Fee</p>
                         </li>
                     </ul>
                 </div>
@@ -88,7 +88,7 @@ function Wallet() {
                                 <span>
                                     <img src={IdCardGray} alt='arrow' className='inline-block w-4 m-1'></img>
                                 </span>
-                                领取电子卡
+                                Collect E-card
                             </p>
                         </li>
                         <li className="flex-col flex items-center justify-center border rounded p-1 shadow">
@@ -97,14 +97,14 @@ function Wallet() {
                                 <span>
                                     <img src={Exchange} alt='arrow' className='inline-block w-4 m-1'></img>
                                 </span>
-                                电子卡换号
+                                E-card Renumber
                             </p>
                         </li>
                         
                     </ul>
                 </div>
-                <p className='text-center text-bar text-ecnu mt-1'>
-                    <text className='mr-1'>点击收起</text>
+                <p className='text-center text-bar text-nyu mt-1'>
+                    <text className='mr-1'>Tap to collapse</text>
                     <span>
                         <img src={Arrow} alt='arrow' className='inline-block w-3'></img>
                     </span>

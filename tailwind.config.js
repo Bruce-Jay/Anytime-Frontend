@@ -25,6 +25,8 @@ module.exports = {
               'schoolbarbot': '#c3495e',
               'schoolbarmed': '#d76376',
               'schoolbarback': '#a71e38',
+              'nyu': '#57068c',
+              'nyuicon': '#876cd4',
           },
           screens: {
               '3xl': '2560px',

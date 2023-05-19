@@ -16,28 +16,28 @@ function Bar() {
                      flex items-center justify-center">
                         <img src={Bus} alt='logo' className='h-6 w-6'></img>
                     </div>
-                    <p className="text-bar text-center leading-5">校车时刻</p>
+                    <p className="text-bar text-center leading-5">Bus Time</p>
                 </li>
                 <li className="h-14 w-16 flex-col flex items-center justify-center">
                     <div className="h-9 w-9 bg-orange-500 rounded-full 
                      flex items-center justify-center">
                         <img src={Calendar} alt='logo' className='h-6 w-6'></img>
                     </div>
-                    <p className="text-bar text-center leading-5">校历</p>
+                    <p className="text-bar text-center leading-5">Calendar</p>
                 </li>
                 <li className="h-14 w-16 flex-col flex items-center justify-center">
                     <div className="h-9 w-9 bg-green-400 rounded-full 
                      flex items-center justify-center">
                         <img src={Map} alt='logo' className='h-6 w-6'></img>
                     </div>
-                    <p className="text-bar text-center leading-5">校园地图</p>
+                    <p className="text-bar text-center leading-5">Map</p>
                 </li>
                 <li className="h-14 w-16 flex-col flex items-center justify-center">
                     <div className="h-9 w-9 bg-blue-600 rounded-full 
                      flex items-center justify-center">
                         <img src={Mail} alt='logo' className='h-6 w-6'></img>
                     </div>
-                    <p className="text-bar text-center leading-5">我的邮箱</p>
+                    <p className="text-bar text-center leading-5">My Email</p>
                 </li>
             </ul>
         </div>
